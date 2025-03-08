@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/carrito.css">
+    <script src="js/carrito.js" defer></script>
+    <script src="js/adicionales.js" defer></script>
+    <script src="js/tematica.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Carrito - Eventos "La carita de pacman"</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Iniciar Sesión</a></li>
+                <li><a href="Login.html" id="btnregistro">Registrarse</a></li>
+                <li><a href="#" id="btncerrarsecion">Cerrar Sesión</a></li>
+                <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Tu Carrito de Compras</h2>
+        <div class="carrito-contenido" id="carrito-contenido">
+            <!-- Aquí se mostrarán los productos añadidos al carrito -->
+        </div>
+        <div class="carrito-total">
+            <h3>Total: <span id="total-precio">0</span> USD</h3>
+            <button id="btn-comprar">Finalizar Compra</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Eventos "La carita de pacman". Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
