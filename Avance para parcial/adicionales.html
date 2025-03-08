@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/adicionales.css">
+    <script src="js/adicionales.js" defer></script>
+    <script src="js/carrito.js" defer></script>
+    <script src="js/tematica.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Eventos "La carita de pacman"</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Iniciar Sesión</a></li>
+                <li><a href="Login.html" id="btnregistro">Registrarse</a></li>
+                <li><a href="#" id="btncerrarsecion">Cerrar Sesión</a></li>
+                <li><a href="carrito.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <h2>Puedes escoger tus adicionales para el evento</h2>
+    
+    <main>
+        <div class="productos">
+            <div class="prod">
+                <div class="seleccion">
+                    <h3>Cabeza de Coco</h3>
+                    <picture>
+                        <source srcset="imgs/webp/productos/1.webp" type="image/webp">
+                        <img src="imgs/webp/productos/1.webp" alt="Cabeza de Coco">
+                    </picture>
+                    <div class="cantidad">
+                        <button class="decrementar">-</button>
+                        <input type="number" value="0" min="0" max="1" class="cantidad-input" id="cantidad1">
+                        <button class="incrementar">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prod">
+                <div class="seleccion1">
+                    <h3>Dibujitos</h3>
+                    <picture>
+                        <source srcset="imgs/webp/productos/2.webp" type="image/webp">
+                        <img src="imgs/webp/productos/2.webp" alt="Dibujitos">
+                    </picture>
+                    <div class="cantidad">
+                        <button class="decrementar">-</button>
+                        <input type="number" value="0" min="0" max="4" class="cantidad-input" id="cantidad2">
+                        <button class="incrementar">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prod">
+                <div class="seleccion2">
+                    <h3>Mesas</h3>
+                    <picture>
+                        <source srcset="imgs/webp/productos/3.webp" type="image/webp">
+                        <img src="imgs/webp/productos/3.webp" alt="Mesas">
+                    </picture>
+                    <div class="cantidad">
+                        <button class="decrementar">-</button>
+                        <input type="number" value="0" min="0" max="15" class="cantidad-input" id="cantidad3">
+                        <button class="incrementar">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prod">
+                <div class="seleccion3">
+                    <h3>Sillas</h3>
+                    <picture>
+                        <source srcset="imgs/webp/productos/4.webp" type="image/webp">
+                        <img src="imgs/webp/productos/4.webp" alt="Sillas">
+                    </picture>
+                    <div class="cantidad">
+                        <button class="decrementar">-</button>
+                        <input type="number" value="0" min="0" max="15" class="cantidad-input" id="cantidad4">
+                        <button class="incrementar">+</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="prod">
+                <div class="seleccion4">
+                    <h3>Transporte</h3>
+                    <picture>
+                        <source srcset="imgs/webp/productos/5.webp" type="image/webp">
+                        <img src="imgs/webp/productos/5.webp" alt="Transporte">
+                    </picture>
+                    <div class="cantidad">
+                        <button class="decrementar">-</button>
+                        <input type="number" value="0" min="0" max="15" class="cantidad-input" id="cantidad5">
+                        <button class="incrementar">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <a href="adicionales.html">
+            <button type="submit" id="btnagregar">Agregar</button>
+        </a>
+    </footer>
+</body>
+
+</html>

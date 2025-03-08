@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/wawitastyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="js/tematica.js" defer></script>
+    <title>Eventos "La carita de pacman"</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Iniciar Sesión</a></li>
+                <li><a href="Login.html" id="btnregistro">Registrarse</a></li>
+                <li><a hrefid="btncerrarsecion">Cerrar Sesión</a></li>
+                <li><a href="carrito.html"><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>SELECCIONA TU TEMATICA</h2>
+        <div class="tematicas">
+            <div class="nicktem">          
+                <div class="seleccion">      
+                    <input type="radio" name="size" id="nick" value="Nickelodeon">
+                    <label for="nick">
+                        <h3>Temática Nickelodeon</h3>
+                        <picture id="nickimg">
+                            <source srcset="imgs/webp/Nickelodeon.webp" type="image/webp">
+                            <img src="imgs/webp/Nickelodeon.webp" alt="Opción Nickelodeon">
+                        </picture>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <button onclick="agregarAlCarrito();">Next</button>
+    </footer>
+</body>
+
+</html>
